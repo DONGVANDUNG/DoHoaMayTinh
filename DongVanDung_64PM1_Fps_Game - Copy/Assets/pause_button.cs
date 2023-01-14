@@ -8,7 +8,7 @@ public class pause_button : MonoBehaviour
     // Start is called before the first frame update
     public void Pause()
     {
-        Time.timeScale = 0f;
+        UnityEditor.EditorApplication.isPaused = true;
     }
     public void Resume()
     {
